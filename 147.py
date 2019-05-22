@@ -42,4 +42,4 @@ class Solution(object):
         for i in result:
             h.val = i
             h = h.next
-        return head
+        return headpinb
