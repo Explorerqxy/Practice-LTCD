@@ -12,4 +12,4 @@ class Solution(object):
             tmp = tmp[1:] + s[10 + i]
             d[tmp] = d.get(tmp, 0) + 1
         res = [k for k, v in d.items() if v > 1]
-        return res   
+        return res
