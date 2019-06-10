@@ -17,4 +17,4 @@ class Solution:
                     elif j == 0 and obs[i-1][j] == 1:
                         obs[i][j] = 1
         return obs[i][j]
-    
+
